@@ -30,14 +30,18 @@
         <div class="row w-80 bg-white mt-3 mb-3 p-3">
             <h1 class="row w-100 pl-4">Contact</h1>                
             <form>
-                <p>Name
-                <input type="text" name="name" value="John Smith"></p>
-                <p>Email
-                <input type="text" name="email" value="example@gmail.com"></p>
-                <p>Message
-                <textarea name="message" rows="6"></textarea></p>
-                <input type="submit" value="Submit">
-            </form> 
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="John Smith">
+                </div>
+                 <div class="form-group">
+                    <label for="exampleInputEmail">Email</label>
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="***@email.com">
+                </div>
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea><br>
+                <button type="submit" class="btn btn-info">Submit</button>
+            </form>
         </div>
     </div>
     <footer class="p-3 mb-2 bg-secondary text-white text-center">Copyright &#169;</footer>
